@@ -1,0 +1,13 @@
+<!-- <h2 class="appStyle">{{hero.name | uppercase}} Details</h2> -->
+<div class="center">
+<h2 class="appStyle">{{hero.name}} Details</h2>
+<div><span class="myLib">id: </span>{{hero.id}}</div>
+<div>
+  <label>name:
+    <input  placeholder="name">
+  </label>
+</div>
+<input #box (keyup)="0">
+<p>{{box.value}}</p>
+  <a routerLink="../../appOwnCp1">返回</a>
+</div>
